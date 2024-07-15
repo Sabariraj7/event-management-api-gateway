@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
-//springboot
+//springboot this is the main annotation to execute spring boot application
 @SpringBootApplication
 @EnableDiscoveryClient
 public class ApiConnectivityApplication {
