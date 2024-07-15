@@ -12,7 +12,7 @@ public class APIConfig {
         return builder.routes()
             .route("EventManagement", r -> r
                 .path("/*/**")
-                .uri("http://localhost:8081"))
+                .uri("http://hostlocal:8081"))
 //            .route("EventManagement", r -> r
 //                .path("/bookings/**")
 //                .uri("http://localhost:8081"))
